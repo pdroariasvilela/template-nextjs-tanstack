@@ -1,8 +1,7 @@
 "use client";
 
-import { getSingleCharacterQueryOptions } from "@/services/api/queries/get-single-character.query";
+import { getSingleCharacterQueryOptions, ICharacter } from "@/features/character";
 import { useQuery } from "@tanstack/react-query";
-import { ICharacter } from "@/shared/types/single-user";
 import Image from "next/image";
 const StatusIndicator = ({ status }: { status: ICharacter["status"] }) => {
   const color = {

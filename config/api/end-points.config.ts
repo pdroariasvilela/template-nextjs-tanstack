@@ -5,6 +5,7 @@ export const END_POINTS = {
   },
   CHARACTER: {
     GET_SINGLE_CHARACTER: "character/:id",
+    GET_ALL_CHARACTERS: "character",
   },
 } as const;
 
